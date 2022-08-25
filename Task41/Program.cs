@@ -13,7 +13,7 @@ for (int i = 0; i < numM; i++)
 {
     Console.Write($"Введите любое целое число {i + 1}: ");
     int x = Convert.ToInt32(Console.ReadLine());
-    if (x >= 0)
+    if (x > 0)
         count++;
 }
 Console.WriteLine($"\nПоложительных чисел: {count}\n");
